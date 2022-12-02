@@ -2,3 +2,19 @@ body {
     font-family: Ubuntu;
     font-weight: bold;
 }
+
+.bg-image {
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    z-index: 2;
+    text-align: center;
+}
